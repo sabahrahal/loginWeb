@@ -1,0 +1,116 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: url(../pictures/login_background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    padding: 15px;
+}
+
+.form{
+    background-color: rgba(255,255,255,0.8);
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border:none;
+    outline: none;
+}
+
+.error-form{
+    color: red; 
+}
+
+.correct-form{
+    color: green; 
+}
+
+.p-hidden{
+    display: none; 
+}
+
+.p-style{
+    font-size: 14px;
+    text-align: start;
+    margin-left: 17px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    color: #b2b2b2;
+}
+
+
+.input-container{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    background-color:rgba(255,255,255);
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button{
+    border:none;
+    width: 100%;
+    color:white;
+    font-size:20px;
+    background:#1a2537;
+    padding:15px 20px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.button:hover{
+    background: cadetblue;
+}
+
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+    color: cadetblue;
+}
+
+.log-error{
+    text-align: center;
+    color : red; 
+}
+
+.loginSuccessful{
+    color:green;
+}
+@media(min-width:768px)
+{
+    .form{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
